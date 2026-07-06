@@ -358,3 +358,57 @@ transform:translateY(-5px);
 }
 
 }
+
+/* ===== Warsztat ===== */
+
+.workshop{
+
+margin-top:60px;
+
+background:#252525;
+
+padding:30px;
+
+border-radius:15px;
+
+}
+
+.work-item{
+
+margin:30px 0;
+
+}
+
+.work-title{
+
+margin-bottom:10px;
+
+font-size:20px;
+
+font-weight:bold;
+
+}
+
+.progress{
+
+height:14px;
+
+background:#444;
+
+border-radius:20px;
+
+overflow:hidden;
+
+}
+
+.progress-bar{
+
+height:100%;
+
+background:#ff9800;
+
+border-radius:20px;
+
+transition:width 1s;
+
+}
