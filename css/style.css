@@ -185,3 +185,59 @@ transform:translateY(-8px);
 box-shadow:0 0 25px rgba(255,152,0,.35);
 
 }
+
+.hero {
+
+    height: 520px;
+
+    background-image: url("../images/banner/banner.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.hero-overlay {
+
+    background: rgba(0,0,0,.55);
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    backdrop-filter: blur(4px);
+
+}
+
+.hero h1 {
+
+    font-size: 70px;
+
+    margin: 0;
+
+    color: white;
+
+}
+
+.hero p {
+
+    font-size: 24px;
+
+    color: #ddd;
+
+}
+
+.about {
+
+    margin-top: 40px;
+
+}
